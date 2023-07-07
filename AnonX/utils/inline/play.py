@@ -63,19 +63,16 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             InlineKeyboardButton(
                 text="💘𝐔ρ∂αтє𝐒💘", url="https://t.me/JAM_MUSIC_UPDATES"
             ),
-        ],
-        [
+        
             InlineKeyboardButton(
                 text="💘𝐒υρρσят𝐓💘", url="https://t.me/JAM_MUSIC_SUPPORT"
             ),
-        ],
-        
+        ],    
         [
             InlineKeyboardButton(
                 text="🖤𝐎ɯɳҽ𝐑🖤", url="https://t.me/JAM_MUSIC_SUPPORT"
             ),
-        ],
-        [
+        
             InlineKeyboardButton(
                 text="🌹 𝐂ʅσʂ𝐄 🌹", callback_data=f"close"
             )
@@ -109,7 +106,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
     else:
         bar = "—————————◉"
 
-    buttons = [
+        buttons = [
         [
             InlineKeyboardButton(
                 text=f"{played} {bar} {dur}",
@@ -125,6 +122,9 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text="II", callback_data=f"ADMIN Pause|{chat_id}"
             ),
             InlineKeyboardButton(
+                text="☆", callback_data=f"add_playlist {videoid}"
+            ),
+            InlineKeyboardButton(
                 text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
             ),
             InlineKeyboardButton(
@@ -133,7 +133,20 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
+                text="💘𝐔ρ∂αтє𝐒💘", url="https://t.me/JAM_MUSIC_UPDATES"
+            ),
+        
+            InlineKeyboardButton(
+                text="💘𝐒υρρσят𝐓💘", url="https://t.me/JAM_MUSIC_SUPPORT"
+            ),
+        ],    
+        [
+            InlineKeyboardButton(
+                text="🖤𝐎ɯɳҽ𝐑🖤", url="https://t.me/JAM_MUSIC_SUPPORT"
+            ),
+        
+            InlineKeyboardButton(
+                text="🌹 𝐂ʅσʂ𝐄 🌹", callback_data=f"close"
             )
         ],
     ]
