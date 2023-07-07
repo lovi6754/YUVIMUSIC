@@ -207,13 +207,8 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         bar = "ﮩ٨ـﮩﮩ٨ـ♡ﮩ٨ـﮩﮩ٨ـ"
     else:
         bar = "ﮩ٨ـﮩ♡ﮩ٨ـﮩ٨ـﮩﮩ٨ـ"
+
     buttons = [
-        [
-            InlineKeyboardButton(
-                text=_["S_B_5"],
-                url=f"https://t.me/{app.username}?startgroup=true",
-            ),
-        ],
         [
             InlineKeyboardButton(
                 text=f"{played} {bar} {dur}",
@@ -229,6 +224,9 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text="II", callback_data=f"ADMIN Pause|{chat_id}"
             ),
             InlineKeyboardButton(
+                text="☆", callback_data=f"add_playlist {videoid}"
+            ),
+            InlineKeyboardButton(
                 text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
             ),
             InlineKeyboardButton(
@@ -237,13 +235,24 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text=_["S_B_3"],
-                url=f"{SUPPORT_GROUP}"
+                text="💘𝐔ρ∂αтє𝐒💘", url="https://t.me/JAM_MUSIC_UPDATES"
             ),
+        
+            InlineKeyboardButton(
+                text="💘𝐒υρρσят𝐓💘", url="https://t.me/JAM_MUSIC_SUPPORT"
+            ),
+        ],    
+        [
+            InlineKeyboardButton(
+                text="🖤𝐎ɯɳҽ𝐑🖤", url="https://t.me/JAM_MUSIC_SUPPORT"
+            ),
+        
+            InlineKeyboardButton(
+                text="🌹 𝐂ʅσʂ𝐄 🌹", callback_data=f"close"
+            )
         ],
     ]
     return buttons
-
 
 def telegram_markup_timer(_, chat_id, played, dur):
     played_sec = time_to_seconds(played)
@@ -254,12 +263,3 @@ def telegram_markup_timer(_, chat_id, played, dur):
         bar = "⚡ѕтαяє∂ ρℓαყเɳɠ⚡"
     elif 2 < anon < 3:
         bar = "ﮩ٨ـﮩﮩ٨ـﮩ٨ـﮩ♡ﮩ٨ـ"
-    elif 3 <= anon < 4:
-        bar = "ﮩ٨ـﮩﮩ٨ـ♡ﮩ٨ـﮩﮩ٨ـ"
-    elif 4 <= anon < 5:
-        bar = "ﮩ٨ـﮩ♡ﮩ٨ـﮩ٨ـﮩﮩ٨ـ"
-    elif 6 <= anon < 7:
-        bar = "ﮩ♡٨ـﮩﮩ٨ـﮩ٨ـﮩﮩ٨ـ"
-    elif 7 <= anon < 8:
-        bar = "ﮩ٨ـﮩﮩ٨ـﮩ٨ـﮩ♡ﮩ٨ـ"
-    elif 9 <= anon < 10:
