@@ -21,12 +21,12 @@ OWNER_ID = list(map(int, getenv("OWNER_ID", "5908843784").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/rishii7205/button")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/lovi6754/YUVIMUSIC")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/jam_music_updates")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/JAM_MUSIC_SUPPORT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/loveguruoo")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", " https://t.me/khushi_world")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
