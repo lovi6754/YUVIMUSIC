@@ -235,16 +235,16 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="💘𝐔ρ∂αтє𝐒💘", url="https://t.me/JAM_MUSIC_UPDATES"
+                text="💘𝐔ρ∂αтє𝐒💘", url="https://t.me/Khushi_World"
             ),
         
             InlineKeyboardButton(
-                text="💘𝐒υρρσят𝐓💘", url="https://t.me/JAM_MUSIC_SUPPORT"
+                text="💘𝐒υρρσят𝐓💘", url="https://t.me/loveguruoo"
             ),
         ],    
         [
             InlineKeyboardButton(
-                text="🖤𝐎ɯɳҽ𝐑🖤", url="https://t.me/JAM_MUSIC_SUPPORT"
+                text="🖤𝐎ɯɳҽ𝐑🖤", url="https://t.me/loveguruo"
             ),
         
             InlineKeyboardButton(
@@ -479,16 +479,16 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="💘𝐔ρ∂αтє𝐒💘", url="https://t.me/JAM_MUSIC_UPDATES"
+                text="💘𝐔ρ∂αтє𝐒💘", url="https://t.me/Khushi_World"
             ),
         
             InlineKeyboardButton(
-                text="💘𝐒υρρσят𝐓💘", url="https://t.me/JAM_MUSIC_SUPPORT"
+                text="💘𝐒υρρσят𝐓💘", url="https://t.me/loveguruoo"
             ),
         ],    
         [
             InlineKeyboardButton(
-                text="🖤𝐎ɯɳҽ𝐑🖤", url="https://t.me/JAM_MUSIC_SUPPORT"
+                text="🖤𝐎ɯɳҽ𝐑🖤", url="https://t.me/loveguruo"
             ),
         
             InlineKeyboardButton(
