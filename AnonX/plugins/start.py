@@ -178,7 +178,7 @@ async def start_comm(client, message: Message, _):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🥀𝐆𝐑𝐎𝐔𝐏🥀", url=f"{https://t.me/Khushi_World}"
+                            text="🥀𝐆𝐑𝐎𝐔𝐏🥀", url=f"https://t.me/Khushi_World"
                         ),
                         InlineKeyboardButton(
                             text="🏓𝐒𝐔𝐏𝐏𝐎𝐑𝐓🏓", url="https://t.me/loveguruoo"
