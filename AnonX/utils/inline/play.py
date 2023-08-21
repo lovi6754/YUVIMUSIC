@@ -235,7 +235,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="💘𝐔ρ∂αтє𝐒💘", url="https://t.me/Khushi_World"
+                text="💘𝐔ρ∂αтє𝐒💘", url="https://t.me/RICH_OF_HEART"
             ),
         
             InlineKeyboardButton(
@@ -479,7 +479,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="💘𝐔ρ∂αтє𝐒💘", url="https://t.me/Khushi_World"
+                text="💘𝐔ρ∂αтє𝐒💘", url="https://t.me/RICH_OF_HEART"
             ),
         
             InlineKeyboardButton(
